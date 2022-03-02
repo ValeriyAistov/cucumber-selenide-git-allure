@@ -23,7 +23,7 @@ public class SignInPage {
 
     public void checkCorrectPass(){
         if (wrongPass.exists()) {
-            log.error("Password wrong");
+            log.error("Input password wrong");
         } else {
            log.info("Password correct");
         }
