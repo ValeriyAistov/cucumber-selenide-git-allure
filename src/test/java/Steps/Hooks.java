@@ -8,6 +8,7 @@ public class Hooks {
 
     @Before
     public void openUrl(){
+        System.setProperty("webdriver.chrome.driver","D:\\Тестировка\\chromedriver.exe");
         open("https://yandex.ru/");
     }
 }

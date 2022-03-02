@@ -9,13 +9,13 @@ public class SignInStepDef {
     SignInPage signInPage = new SignInPage();
     Page page = new Page();
 
-    @Then("Input login and click Enter")
+    @Then("Input login")
     public void inputLoginAndClickEnter() {
         signInPage.inputLog(UserConfig.LOGIN);
         page.clickNextButton();
     }
 
-    @Then("Input Password and click Enter")
+    @Then("Input Password")
     public void inputPasswordAndClickEnter() {
         signInPage.inputPass(UserConfig.PASS);
         page.clickNextButton();
