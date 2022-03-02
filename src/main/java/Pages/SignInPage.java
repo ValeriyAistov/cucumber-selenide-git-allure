@@ -25,7 +25,7 @@ public class SignInPage {
         if (wrongPass.exists()) {
             log.error("Input password wrong");
         } else {
-           log.info("Password correct");
+           log.info("Input password correct");
         }
 
     }
