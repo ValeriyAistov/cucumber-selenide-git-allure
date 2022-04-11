@@ -16,4 +16,9 @@ public class Hooks {
         System.setProperty("webdriver.chrome.driver","D:\\Тестировка\\chromedriver.exe");
         open("https://yandex.ru/");
     }
+
+    public void closeUrl2(){
+        System.setProperty("webdriver.chrome.driver","D:\\Тестировка\\chromedriver.exe");
+        open("https://yandex.ru/");
+    }
 }
